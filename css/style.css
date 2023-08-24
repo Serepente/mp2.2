@@ -1,0 +1,153 @@
+body {
+  overflow-x: hidden;
+}
+
+.container1{
+  background-image: url('/img/Basic\ Bread\,\ my\ first\ sourdough\ bread.jfif');
+  background-size: cover;
+  background-position:center; 
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+#navbarNav{
+  position: relative;
+  left: 24.5vw;
+}
+.brandName{
+  position: relative;
+  left: 5vw;
+}
+.brandPic{
+  /* background-color: blue ; */
+  position: relative;
+  width: 3.5vw;
+  left: 5vw;
+  bottom: 0.9vh;
+}
+.accounts{
+  position: relative;
+  left: 15vw;
+}
+.cart{
+  position: relative;
+  left: 16vw;
+}
+
+.container2{
+  background-color: peachpuff;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  
+}
+.slogan{
+  /* background-color: red; */
+  width: 40vw;
+  position: relative;
+  top: 28vh;
+  left: 13vw;
+  color: white;
+}
+.slog{
+  font-size: 3.5rem;
+}
+.line{
+  opacity: 60%;
+}
+.btn1{
+  position: relative;
+  top: 4vh;
+  border-radius: 10px;
+  background-color: #E57C23;
+  color: white;
+}
+.minicon{
+  /* background: red; */
+  position: relative;
+  top: 10vh;
+  left: 10vw;
+  width: 40vw;
+  height: 82vh;
+}
+.mainPic{
+  background-color: violet;
+  height: 40vh;
+}
+.mainPic img{
+  width: 40vw;
+}
+
+.pic2{
+  /* background-color: blue; */
+  position: relative;
+  left: 10vw;
+  top: -15.2vh;
+  width: 14vw;
+}
+.pic3{
+  position: relative;
+  left: 23.7vw;
+  top: -40.3vh;
+  width: 14vw;
+}
+.pic4{
+  position: relative;
+  left: 37.4vw;
+  top: -65.4vh;
+  width: 14vw;
+}
+.welcome{
+  /* background-color: red; */
+  position: relative;
+  bottom: 145vh;
+  left: 54vw;
+  width: 20vw;
+}
+.line2{
+  opacity: 90%;
+}
+.lines{
+  /* background-color: red; */
+  width: 40vw;
+  opacity: 90%;
+}
+.welcomeMessage{
+  /* background-color: red; */
+  width: 40vw;
+
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.custom-card:hover{
+  border-color: rgb(32, 237, 13) !important;
+  transition: 0.5s;
+  cursor: pointer;
+}
