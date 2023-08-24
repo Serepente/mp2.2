@@ -3,7 +3,7 @@ import{items} from './products.js';
 // Showing the top products
 let showItems = document.getElementById("show-top-products");
 
-items.forEach((product) =>{
+items.forEach((product, key) =>{
   let createElement = document.createElement("div");
   createElement.classList.add("card", "swiper-slide", "text-center", "custom-card");
   createElement.innerHTML = `
@@ -11,7 +11,7 @@ items.forEach((product) =>{
   <div class="card-body">
     <h5 class="card-title mb-5">${product.productName}</h5>
     <p class="card-text"><i class="fa-solid fa-peso-sign" style="color: #000000;"></i> ${product.productPrice}</p>
-    <button class="btn btn-primary add-cart">Add to Cart <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+    <button class="btn btn-primary add-cart" onclick="addToCart()">Add to Cart <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
   </div>
   `;
 
@@ -22,8 +22,6 @@ items.forEach((product) =>{
     alert(`${product.productName} added to cart successfully!`);
   })
 })
-
-
 
 // Initializing slider
 var swiper = new Swiper(".slide-container", {
@@ -54,4 +52,28 @@ var swiper = new Swiper(".slide-container", {
         slidesPerView: 4,
       },
     },
-  });
+});
+
+//Image Carousel
+let main = document.getElementById("main");
+let thumbnail = document.querySelectorAll(".thumbnail");
+
+thumbnail.forEach(
+    function(image){
+        image.addEventListener("click",
+        function changeImage(event){
+                main.removeAttribute("src");
+                main.setAttribute("src", event.target.getAttribute("src"));
+        })
+    }
+)
+//Show Cart
+let cartBtn = document.querySelector('.cart');
+let closeBtn = document.querySelector(".closeCart");
+
+cartBtn.addEventListener('click', () =>{
+  document.body.classList.add('active');
+});
+closeBtn.addEventListener('click', () =>{
+  document.body.classList.remove('active');
+});
