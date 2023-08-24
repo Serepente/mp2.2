@@ -3,7 +3,7 @@ body {
 }
 
 .container1{
-  background-image: url('/img/mainbread.jpg');
+  background-image: url("img/mainbread.jpg");
   background-size: cover;
   background-position:center; 
   /* background-color: red; */
