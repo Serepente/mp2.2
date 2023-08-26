@@ -10,7 +10,7 @@ export let items = [
         ProductImage:"img//blueberry-cheesecake.jpg",
     },
     {
-        productName:"Cake Wako kaybaw haha",
+        productName:"Cake Wako kaybaw",
         productPrice:"500",
         ProductImage:"img/cake1.jpg",
     },

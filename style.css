@@ -42,6 +42,7 @@ body {
   position: relative;
   
 }
+
 .slogan{
   /* background-color: red; */
   width: 40vw;
@@ -53,9 +54,11 @@ body {
 .slog{
   font-size: 3.5rem;
 }
-.line{
-  opacity: 60%;
-}
+/* .welcome{
+  position: relative;
+  bottom: 10vh;
+} */
+
 .btn1{
   position: relative;
   top: 4vh;
@@ -126,14 +129,11 @@ body {
   left: 54vw;
   width: 20vw;
 }
-.line2{
-  opacity: 90%;
+.lineOne{
+  position: relative;
+  top: 5vh;
 }
-.lines{
-  /* background-color: red; */
-  width: 40vw;
-  opacity: 90%;
-}
+
 .welcomeMessage{
   /* background-color: red; */
   width: 40vw;
@@ -211,4 +211,343 @@ body {
 }
 .active .container{
   transform: translateX(-200px);
+}
+
+/* Neri 25 Aug 2023 10:56am */
+
+.container3{ 
+  /* background-color: red; */
+  width: 100vw;
+  height: 70vh;
+  
+}
+.landscape{
+  /* background-color: blue; */
+  width: 100vw;
+  height: 70vh;
+  background-image: url(img/bakelandscape.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.percent{
+  /* background-color:green ; */
+  width: 35.5vw;
+  position: relative;
+  left: 15vw;
+  top: 15vh;
+  
+}
+
+.just{
+font-size: 1.5rem;
+color: white;
+}
+
+.baking{
+  /* background-color:green ; */
+  position: relative;
+  width: 35.5vw;
+  left: 15vw;
+  top: 15vh;
+}
+.special{
+  font-size: 4rem;
+  color: white;
+}
+.container5{
+  background-image: url(img/bakelandscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* background-color: red; */
+  position: relative;
+  /* top: 10vh; */
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+
+.container5 h2{
+  text-align: center;
+}
+.mainservice{
+  width: 60%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.griditem1div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.grid-item1{
+  border: 3px solid #F4D160;
+  border-radius: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.griditem2div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.grid-item2{
+  border: 3px solid #F4D160;
+  border-radius: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.griditem3div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.grid-item3{
+  border: 3px solid #F4D160;
+  border-radius: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.griditem4div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.grid-item4{
+  border: 3px solid #F4D160;
+  border-radius: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image {
+  width: 90px;
+  height: auto;
+}
+.image2 {
+  width: 110px;
+  height: auto;
+}
+.image4 {
+  width: 110px;
+  height: auto;
+}
+.rollingUp{
+  position: absolute;
+  /* background-color: green; */
+  left: -2vw;
+  bottom: 0vh;
+}
+.rollUp{
+  height: 50vh;
+}
+.rollingDown{
+  position: absolute;
+  /* background-color: green; */
+  left: 78vw;
+  bottom: 20vh;
+}
+.rollDown{
+  height: 50vh;
+}
+.container6{
+  background-color: #FAF3F0;
+  height: 80vh;
+}
+.testi{
+  position: relative;
+  /* left: 31vw; */
+  text-align: center;
+  top: 6vh;
+}
+.bordered-square {
+  /* background-color: green; */
+  position: relative;
+  left: 15vw;
+  top: 15vh;
+  width: 200px; 
+  height: 350px; 
+  border: 1px solid #F4D160; 
+  box-sizing: border-box; 
+}
+.bordered-square1 {
+   /* background-color: green; */
+   position: relative;
+   left: 32vw;
+   bottom: 39.5vh;
+   width: 200px; 
+   height: 350px; 
+   border: 1px solid #F4D160; 
+   box-sizing: border-box; 
+}
+.bordered-square2 {
+   position: relative;
+  left: 17vw;
+  bottom: 30vh;
+  width: 200px; 
+  height: 350px; 
+  border: 1px solid #F4D160; 
+  box-sizing: border-box; 
+} 
+.bordered-square3 {
+  position: relative;
+  left: 34vw;
+  bottom: 84.5vh;
+  width: 200px; 
+  height: 350px; 
+  border: 1px solid #F4D160; 
+  box-sizing: border-box; 
+} 
+
+/* ERIC */
+.imahe1{
+  /* background-color: green; */
+  width: 100%;
+  height: 30vh;
+}
+.imahe1 img{
+  border-radius: 50%;
+}
+.eric{
+  width: 80px;
+  position: relative;
+  left: 5vw;
+  top: 8vh;
+}
+.ericName{
+  /* background-color: blue; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+}
+.ericMessage{
+  /* background-color: yellow; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+  width: 15vw;
+  font-size: 14px;
+}
+.stars1{
+  width: 120px;
+  position: relative ;
+  top: 15vh;
+  left: 3.1vw;
+}
+/* DON */
+
+.imahe2{
+  /* background-color: green; */
+  width: 100%;
+  height: 30vh;
+}
+.imahe2 img{
+  border-radius: 50%;
+}
+.don{
+  width: 80px;
+  position: relative;
+  left: 5vw;
+  top: 8vh;
+}
+.donName{
+  /* background-color: blue; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+}
+.donMessage{
+  /* background-color: yellow; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+  width: 15vw;
+  font-size: 14px;
+}
+.stars2{
+  width: 120px;
+  position: relative ;
+  top: 15vh;
+  left: 3.1vw;
+}
+
+/* NERI */
+
+.imahe3{
+  /* background-color: green; */
+  width: 100%;
+  height: 30vh;
+}
+.imahe3 img{
+  border-radius: 50%;
+}
+.neri{
+  width: 80px;
+  position: relative;
+  left: 5vw;
+  top: 8vh;
+}
+.neriName{
+  /* background-color: blue; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+}
+.neriMessage{
+  /* background-color: yellow; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+  width: 15vw;
+  font-size: 14px;
+}
+.stars3{
+  width: 120px;
+  position: relative ;
+  top: 17.5vh;
+  left: 3.1vw;
+}
+
+/* MATT */
+
+.imahe4{
+  /* background-color: green; */
+  width: 100%;
+  height: 30vh;
+}
+.imahe4 img{
+  border-radius: 50%;
+}
+.matt{
+  width: 80px;
+  position: relative;
+  left: 5vw;
+  top: 8vh;
+}
+.mattName{
+  /* background-color: blue; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+}
+.mattMessage{
+  /* background-color: yellow; */
+  position: relative ;
+  top: 17vh;
+  text-align: center;
+  width: 15vw;
+  font-size: 14px;
+}
+.stars4{
+  width: 120px;
+  position: relative ;
+  top: 15vh;
+  left: 3.1vw;
 }
