@@ -255,7 +255,7 @@ color: white;
   color: white;
 }
 .container5{
-  background-image: url(img/bakelandscape.jpg);
+  /* background-image: url(img/bakelandscape.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -358,196 +358,130 @@ color: white;
   height: 50vh;
 }
 .container6{
-  background-color: #FAF3F0;
+  padding: 20px;
+  text-align: center;
   height: 80vh;
 }
-.testi{
-  position: relative;
-  /* left: 31vw; */
+.members{
+  justify-content: center;
+  padding: 10px;
   text-align: center;
-  top: 6vh;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
 }
-.bordered-square {
-  /* background-color: green; */
-  position: relative;
-  left: 15vw;
-  top: 15vh;
-  width: 200px; 
-  height: 350px; 
-  border: 1px solid #F4D160; 
-  box-sizing: border-box; 
+.stars{
+  height: auto;
+  width: 70%;
 }
-.bordered-square1 {
-   /* background-color: green; */
-   position: relative;
-   left: 32vw;
-   bottom: 39.5vh;
-   width: 200px; 
-   height: 350px; 
-   border: 1px solid #F4D160; 
-   box-sizing: border-box; 
-}
-.bordered-square2 {
-   position: relative;
-  left: 17vw;
-  bottom: 30vh;
-  width: 200px; 
-  height: 350px; 
-  border: 1px solid #F4D160; 
-  box-sizing: border-box; 
-} 
-.bordered-square3 {
-  position: relative;
-  left: 34vw;
-  bottom: 84.5vh;
-  width: 200px; 
-  height: 350px; 
-  border: 1px solid #F4D160; 
-  box-sizing: border-box; 
-} 
-
-/* ERIC */
-.imahe1{
-  /* background-color: green; */
-  width: 100%;
-  height: 30vh;
-}
-.imahe1 img{
+.idpic{
+  height: 30%;
+  width: 40%;
+  border: .5px solid black;
   border-radius: 50%;
 }
-.eric{
-  width: 80px;
-  position: relative;
-  left: 5vw;
-  top: 8vh;
+.membername{
+  padding: 10px;
+  height: 30%;
+  width: 17%;
+  border: 1px solid black;
 }
-.ericName{
-  /* background-color: blue; */
-  position: relative ;
-  top: 17vh;
-  text-align: center;
+.membername p{
+  padding-top: 20px;
 }
-.ericMessage{
-  /* background-color: yellow; */
-  position: relative ;
-  top: 17vh;
-  text-align: center;
-  width: 15vw;
-  font-size: 14px;
+.membername h4{
+  padding-top: 25px;
 }
-.stars1{
-  width: 120px;
-  position: relative ;
-  top: 15vh;
-  left: 3.1vw;
-}
-/* DON */
-
-.imahe2{
-  /* background-color: green; */
+.mapdiv{
+  background-image: url(./img/map.png);
+  height: 60vh;
   width: 100%;
-  height: 30vh;
 }
-.imahe2 img{
-  border-radius: 50%;
-}
-.don{
-  width: 80px;
+.contactus{
   position: relative;
-  left: 5vw;
-  top: 8vh;
-}
-.donName{
-  /* background-color: blue; */
-  position: relative ;
-  top: 17vh;
+  left: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 25%;
+  background-color: rgba(128, 128, 128, 0.6);
+  align-items: center;
   text-align: center;
 }
-.donMessage{
-  /* background-color: yellow; */
-  position: relative ;
-  top: 17vh;
-  text-align: center;
-  width: 15vw;
-  font-size: 14px;
+.input{
+  width: 70%;
 }
-.stars2{
-  width: 120px;
-  position: relative ;
-  top: 15vh;
-  left: 3.1vw;
+.input2{
+  width: 70%;
 }
-
-/* NERI */
-
-.imahe3{
-  /* background-color: green; */
+.message{
+  width: 70%;
+  height: 30%;
+}
+.button{
+  width: 50%;
+  height: 15%;
+}
+.footer{
+  margin-top: 0.5vh;
   width: 100%;
+  height: 40vh;
+  background-color: black !important;
+  display: grid;
+  place-items: center;
+}
+.parentfooter{
+  margin-top: 10vh;
+  align-items: center;
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+ flex-direction: row; 
+ align-items: flex-start;
+ gap: 20px;
+}
+.footerdiv{
+  color: white !important;
+  font-size: 10px;
+  height: 60%;
+}
+.subdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.subdiv img{
+  height: 5vh;
+}
+.fa-brands{
+  font-size: 20px;
+  width: 10%;
+  height: 4vh;
+  justify-content: space-evenly;
+}
+.parentgrid{
+  color: white;
   height: 30vh;
+  width: 50%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
 }
-.imahe3 img{
-  border-radius: 50%;
+.griddiv{
+  width: 70%;
+  height: 10vh;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2px;
 }
-.neri{
-  width: 80px;
-  position: relative;
-  left: 5vw;
-  top: 8vh;
+.imgdiv{
+  border: 2px solid black;
 }
-.neriName{
-  /* background-color: blue; */
-  position: relative ;
-  top: 17vh;
-  text-align: center;
-}
-.neriMessage{
-  /* background-color: yellow; */
-  position: relative ;
-  top: 17vh;
-  text-align: center;
-  width: 15vw;
-  font-size: 14px;
-}
-.stars3{
-  width: 120px;
-  position: relative ;
-  top: 17.5vh;
-  left: 3.1vw;
-}
-
-/* MATT */
-
-.imahe4{
-  /* background-color: green; */
+.imgdiv img{
+  height: 100%;
   width: 100%;
-  height: 30vh;
 }
-.imahe4 img{
-  border-radius: 50%;
-}
-.matt{
-  width: 80px;
-  position: relative;
-  left: 5vw;
-  top: 8vh;
-}
-.mattName{
-  /* background-color: blue; */
-  position: relative ;
-  top: 17vh;
-  text-align: center;
-}
-.mattMessage{
-  /* background-color: yellow; */
-  position: relative ;
-  top: 17vh;
-  text-align: center;
-  width: 15vw;
-  font-size: 14px;
-}
-.stars4{
-  width: 120px;
-  position: relative ;
-  top: 15vh;
-  left: 3.1vw;
-}
+
