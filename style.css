@@ -215,11 +215,16 @@ body {
 
 /* Neri 25 Aug 2023 10:56am */
 
-.container3{ 
-  /* background-color: red; */
+/* .container3{ 
+  background-color: red;
   width: 100vw;
   height: 70vh;
   
+} */
+.container-3{
+  position: relative;
+  top: 30%;
+  padding-left: 60px;
 }
 .landscape{
   /* background-color: blue; */
@@ -268,6 +273,14 @@ color: white;
   justify-content: center; 
   align-items: center;
   flex-direction: column;
+}
+
+
+.container-5{
+  background-image: url('img/roll2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .container5 h2{
